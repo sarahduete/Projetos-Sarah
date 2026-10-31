@@ -1122,3 +1122,25 @@ footer a:not(.logo):hover {
         height: 65px !important;
     }
 }
+/* Fonte arredondada */
+* {
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+/* Textos em rosa */
+h1, h2, h3, h4,
+nav a,
+.project-card h3,
+.project-card p {
+    color: #D94F7D;
+}
+
+/* Títulos com mais destaque */
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+/* Textos menores */
+p, span, a {
+    font-weight: 500;
+}
