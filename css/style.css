@@ -1144,3 +1144,112 @@ h1, h2, h3 {
 p, span, a {
     font-weight: 500;
 }
+/* VITRINE DE PROJETOS - ROSA */
+
+.showcase {
+    font-family: 'Nunito', sans-serif;
+}
+
+.showcase-card {
+    background: #FFF5F8;
+    border: 1px solid #F7C5D6;
+    border-radius: 22px;
+    box-shadow: 0 15px 35px rgba(217, 79, 125, 0.15);
+    overflow: hidden;
+}
+
+.showcase-top {
+    background: #F7A8C4;
+    color: #7D294A;
+    padding: 15px 18px;
+}
+
+.showcase-top p {
+    color: #7D294A;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+
+.showcase-top span {
+    background: #FFF5F8;
+}
+
+.showcase-caption {
+    background: #FFF5F8;
+    color: #30252B;
+    padding: 18px;
+}
+
+.showcase-caption span:first-child {
+    color: #D94F7D;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.showcase-caption h3 {
+    color: #B83F70;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.showcase-number {
+    color: #D94F7D;
+    font-size: 30px;
+    font-weight: 900;
+}
+/* CARDS MENORES DA VITRINE */
+
+.showcase-small {
+    background: #FFF5F8;
+    border: 1px solid #F7C5D6;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(217, 79, 125, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.showcase-small:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(217, 79, 125, 0.2);
+}
+
+.showcase-small img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.showcase-small span {
+    display: block;
+    padding: 12px 15px;
+    color: #B83F70;
+    background: #FFF5F8;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+/* ETIQUETA DE DESENVOLVIMENTO WEB */
+
+.showcase-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 11px 18px;
+    background: #FCE0EA;
+    border: 1px solid #F7A8C4;
+    border-radius: 50px;
+    color: #B83F70;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    box-shadow: 0 6px 18px rgba(217, 79, 125, 0.10);
+}
+
+.showcase-tag span {
+    color: #D94F7D;
+    font-size: 18px;
+}
