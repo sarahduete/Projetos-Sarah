@@ -1352,3 +1352,10 @@ p, span, a {
     margin-bottom: 15px;
     line-height: 1.5;
 }
+.about-content h2 {
+    font-weight: 700;
+}
+
+.about-content h2 span {
+    font-weight: 700;
+}
