@@ -1347,16 +1347,15 @@ p, span, a {
     line-height: 1.5;
     margin: 0;
 }
-.about-content .eyebrow {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    line-height: 1.5;
-}
 .about-content h2 {
     font-weight: 700;
 }
 
 .about-content h2 span {
     font-weight: 400;
-
-
+}
+.about-content .eyebrow {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
