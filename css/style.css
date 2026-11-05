@@ -1335,3 +1335,15 @@ p, span, a {
         height: 410px;
     }
 }
+/* TEXTO CONHEÇA MINHA TRAJETÓRIA */
+
+.about-content .eyebrow {
+    font-family: var(--text);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--pink);
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin: 0;
+}
