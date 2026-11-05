@@ -1347,3 +1347,8 @@ p, span, a {
     line-height: 1.5;
     margin: 0;
 }
+.about-content .eyebrow {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
