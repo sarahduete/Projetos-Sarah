@@ -1354,12 +1354,115 @@ p, span, a {
 .about-content h2 span {
     font-weight: 400;
 }
-.certificate-card span {
-    color: #607789;
-    font-size: 12px;
-}
 .about-content .eyebrow {
     margin-top: 15px;
     margin-bottom: 15px;
     line-height: 1.5;
 }
+
+/* SEÇÃO DE CERTIFICADOS */
+
+.certificates-section {
+    margin-top: 55px;
+    padding-top: 35px;
+    border-top: 1px solid #D9EFF7;
+}
+
+.certificates-heading {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.certificates-heading h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #092D4B;
+    margin-top: 10px;
+}
+
+.certificates-heading h3 span {
+    color: #F07832;
+}
+
+.certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.certificate-card {
+    background: #FFFFFF;
+    border: 1px solid #E1EDF2;
+    border-radius: 13px;
+    padding: 22px;
+    min-height: 145px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.certificate-card::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 18px;
+    bottom: 18px;
+    width: 3px;
+    background: #F07832;
+    border-radius: 5px;
+}
+
+.certificate-card:hover {
+    transform: translateY(-4px);
+    border-color: #B8DCEB;
+    box-shadow: 0 8px 22px rgba(9, 45, 75, 0.07);
+}
+
+.certificate-card h4 {
+    color: #092D4B;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.certificate-card p {
+    color: #7893A3;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.certificate-card span {
+    display: inline-block;
+    background: #FFF0E6;
+    color: #C95720;
+    padding: 6px 11px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 900px) {
+    .certificates-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .certificates-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .certificates-heading h3 {
+        font-size: 24px;
+    }
+}
+
