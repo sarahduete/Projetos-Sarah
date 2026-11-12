@@ -1354,6 +1354,10 @@ p, span, a {
 .about-content h2 span {
     font-weight: 400;
 }
+.certificate-card span {
+    color: #607789;
+    font-size: 12px;
+}
 .about-content .eyebrow {
     margin-top: 15px;
     margin-bottom: 15px;
