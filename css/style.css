@@ -1362,69 +1362,61 @@ p, span, a {
 
 /* SEÇÃO DE CERTIFICADOS */
 
+
+/* SEÇÃO DE CERTIFICADOS */
+
 .certificates-section {
     margin-top: 55px;
-    padding-top: 35px;
-    border-top: 1px solid #D9EFF7;
+    padding-top: 10px;
+    border: none;
 }
 
 .certificates-heading {
-    text-align: left;
-    margin-bottom: 25px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .certificates-heading h3 {
     font-family: 'Playfair Display', serif;
-    font-size: 28px;
+    font-size: 29px;
     color: #092D4B;
     margin-top: 10px;
 }
 
 .certificates-heading h3 span {
-    color: #F07832;
+    color: #D94F7D;
 }
 
 .certificates-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
+    gap: 20px;
     max-width: 1100px;
     margin: 0 auto;
 }
 
 .certificate-card {
-    background: #FFFFFF;
-    border: 1px solid #E1EDF2;
-    border-radius: 13px;
-    padding: 22px;
+    background: #FFF5F8;
+    border: 1px solid #F5D6E1;
+    border-radius: 16px;
+    padding: 24px;
     min-height: 145px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    position: relative;
     transition: all 0.3s ease;
-}
-
-.certificate-card::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 18px;
-    bottom: 18px;
-    width: 3px;
-    background: #F07832;
-    border-radius: 5px;
 }
 
 .certificate-card:hover {
     transform: translateY(-4px);
-    border-color: #B8DCEB;
-    box-shadow: 0 8px 22px rgba(9, 45, 75, 0.07);
+    background: #FCEBF1;
+    border-color: #E9A8BF;
+    box-shadow: 0 8px 22px rgba(184, 63, 112, 0.08);
 }
 
 .certificate-card h4 {
-    color: #092D4B;
+    color: #49303C;
     font-size: 15px;
     font-weight: 600;
     line-height: 1.5;
@@ -1432,7 +1424,7 @@ p, span, a {
 }
 
 .certificate-card p {
-    color: #7893A3;
+    color: #987486;
     font-size: 12px;
     font-weight: 500;
     margin-bottom: 12px;
@@ -1440,9 +1432,9 @@ p, span, a {
 
 .certificate-card span {
     display: inline-block;
-    background: #FFF0E6;
-    color: #C95720;
-    padding: 6px 11px;
+    background: #F8DCE7;
+    color: #B83F70;
+    padding: 6px 12px;
     border-radius: 20px;
     font-size: 11px;
     font-weight: 600;
@@ -1462,7 +1454,7 @@ p, span, a {
     }
 
     .certificates-heading h3 {
-        font-size: 24px;
+        font-size: 25px;
     }
 }
 
