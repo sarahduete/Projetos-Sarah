@@ -714,7 +714,7 @@ header {
     font-size: 13px;
 }
 
-/* CONTATO - SEM BOTÃO */
+/* CONTATO */
 
 .contact-form {
     display: flex;
@@ -731,7 +731,6 @@ header {
     font-family: 'Playfair Display', serif;
     font-size: 25px;
     color: #B83F70;
-    margin-bottom: 5px;
 }
 
 .contact-form p {
@@ -741,19 +740,10 @@ header {
 }
 
 .contact-form .contact-email {
-    margin-top: 12px;
-    padding: 18px;
-    background: #FFFFFF;
-    border-radius: 12px;
-    border-left: 4px solid #D94F7D;
-    color: #403638;
-    line-height: 1.9;
-    overflow-wrap: anywhere;
-}
-
-.contact-form .contact-email strong {
     color: #B83F70;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 16px;
+    overflow-wrap: anywhere;
 }
 
 /* ==========================================
