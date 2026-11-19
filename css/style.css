@@ -714,39 +714,43 @@ header {
     font-size: 13px;
 }
 
-/* CONTATO */
+/* ORGANIZAÇÃO DA SEÇÃO DE CONTATO */
+
+.contact-box {
+    display: grid;
+    grid-template-columns: 1fr 0.85fr;
+    align-items: center;
+    gap: 45px;
+}
+
+.contact-text {
+    min-width: 0;
+}
 
 .contact-form {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
-    padding: 35px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+    padding: 30px;
     background: linear-gradient(135deg, #FFF0F5, #FCE2EA);
     border: 1px solid #F2D1DC;
     border-radius: 18px;
 }
 
-.contact-info {
-    flex: 1;
-}
-
 .contact-info h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 25px;
-    color: #B83F70;
-    margin-bottom: 12px;
+    color: #D94F7D;
+    font-size: 23px;
+    margin-bottom: 10px;
 }
 
 .contact-info p {
     color: #806F72;
-    font-size: 15px;
-    line-height: 1.8;
+    line-height: 1.7;
 }
 
 .contact-email {
-    flex: 1;
-    text-align: right;
+    text-align: left;
 }
 
 .contact-email span {
@@ -754,30 +758,23 @@ header {
     color: #B83F70;
     font-size: 12px;
     font-weight: 700;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .contact-email p {
     color: #403638;
-    font-size: 16px;
     font-weight: 600;
     overflow-wrap: anywhere;
 }
 
-/* CELULAR */
-@media (max-width: 600px) {
-    .contact-form {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 25px;
-    }
+/* RESPONSIVIDADE */
 
-    .contact-email {
-        text-align: left;
+@media (max-width: 768px) {
+    .contact-box {
+        grid-template-columns: 1fr;
+        gap: 30px;
     }
 }
-
 /* ==========================================
    RODAPÉ
 ========================================== */
