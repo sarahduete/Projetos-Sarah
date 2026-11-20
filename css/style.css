@@ -1710,3 +1710,67 @@ p, span, a {
         width: 100%;
     }
 }
+
+/* CORREÇÃO DA SEÇÃO DE PROJETOS */
+
+.projects-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+}
+
+/* Derma Beauty ocupa toda a largura */
+.projects-grid > .projeto-principal {
+    grid-column: 1 / -1;
+    width: 100%;
+    margin: 0 0 15px;
+}
+
+/* Imagem e informações lado a lado */
+.projeto-principal .projeto-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    align-items: center;
+}
+
+/* Imagem única */
+.projeto-principal .projeto-imagens {
+    width: 100%;
+}
+
+.projeto-principal .imagem-principal {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+/* Outros projetos */
+.projects-grid > .project-card {
+    width: 100%;
+    min-width: 0;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .projeto-principal .projeto-conteudo {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Celular */
+@media (max-width: 650px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-grid > .projeto-principal {
+        grid-column: 1;
+    }
+
+    .projeto-principal .imagem-principal {
+        height: 230px;
+    }
+}
