@@ -1262,3 +1262,18 @@ footer a:not(.logo):hover {
     }
 
 }
+/* Ajuste da imagem do Derma Beauty */
+.projeto-principal .projeto-imagens {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.projeto-principal .imagem-principal {
+    width: 100%;
+    height: 230px;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 12px;
+}
