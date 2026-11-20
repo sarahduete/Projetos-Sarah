@@ -1277,3 +1277,210 @@ footer a:not(.logo):hover {
     object-position: top center;
     border-radius: 12px;
 }
+
+
+/* ==========================================
+   DERMA BEAUTY - PROJETO EM DESTAQUE
+========================================== */
+
+.projeto-principal {
+    grid-column: 1 / -1;
+    width: 100%;
+    padding: 30px;
+    background: #FFFFFF;
+    border: 1px solid #F0DCE4;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(113, 51, 79, 0.07);
+}
+
+.projeto-destaque-topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.projeto-etiqueta {
+    display: inline-block;
+    padding: 8px 14px;
+    color: #B83F70;
+    background: #FCE8EF;
+    border-radius: 30px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.projeto-numero {
+    color: #806F77;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.projeto-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+/* IMAGEM MENOR E CENTRALIZADA */
+
+.projeto-imagens {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.projeto-imagens .imagem-principal {
+    display: block;
+    width: 100%;
+    height: 190px;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: top center;
+    border: 1px solid #F0DCE4;
+    border-radius: 12px;
+    box-shadow: 0 8px 22px rgba(120, 55, 80, 0.08);
+}
+
+/* INFORMAÇÕES */
+
+.projeto-informacoes {
+    width: 100%;
+}
+
+.projeto-categoria {
+    display: block;
+    margin-bottom: 10px;
+    color: #B83F70;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.projeto-informacoes h3 {
+    margin-bottom: 12px;
+    color: #30252B;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+.projeto-descricao {
+    max-width: 750px;
+    color: #806F77;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.projeto-informacoes h4 {
+    margin-top: 22px;
+    margin-bottom: 12px;
+    color: #71334F;
+    font-size: 13px;
+}
+
+.lista-funcionalidades {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px 25px;
+    padding-left: 18px;
+    color: #806F77;
+    font-size: 12px;
+}
+
+.lista-funcionalidades li::marker {
+    color: #D94F7D;
+}
+
+/* TECNOLOGIAS */
+
+.projeto-tecnologias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 22px;
+}
+
+.projeto-tecnologias span {
+    padding: 7px 13px;
+    color: #B83F70;
+    background: #FCE8EF;
+    border-radius: 30px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+/* BOTÕES */
+
+.projeto-botoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.btn-projeto,
+.projeto-botoes .btn-github {
+    min-height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    border-radius: 9px;
+    font-size: 11px;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.btn-projeto {
+    color: #FFFFFF;
+    background: #D94F7D;
+    border: 1px solid #D94F7D;
+}
+
+.btn-projeto:hover {
+    background: #71334F;
+    border-color: #71334F;
+}
+
+.projeto-botoes .btn-github {
+    color: #B83F70;
+    background: #FFFFFF;
+    border: 1px solid #F7A8C4;
+}
+
+.projeto-botoes .btn-github:hover {
+    background: #FFF5F8;
+}
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+
+    .projeto-principal {
+        padding: 20px;
+    }
+
+    .projeto-imagens {
+        max-width: 100%;
+    }
+
+    .projeto-imagens .imagem-principal {
+        height: 180px;
+    }
+
+    .lista-funcionalidades {
+        grid-template-columns: 1fr;
+    }
+
+    .projeto-botoes {
+        flex-direction: column;
+    }
+
+    .projeto-botoes a {
+        width: 100%;
+    }
+
+}
