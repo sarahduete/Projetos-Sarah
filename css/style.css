@@ -1484,3 +1484,29 @@ footer a:not(.logo):hover {
     }
 
 }
+/* IMAGEM DO DERMA BEAUTY - OCUPANDO O QUADRO */
+.projeto-principal .projeto-imagens {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 320px !important;
+    display: block !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+}
+
+.projeto-principal .projeto-imagens .imagem-principal {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    aspect-ratio: auto !important;
+    object-fit: cover !important;
+    object-position: top center !important;
+    border-radius: 16px;
+}
+
+@media (max-width: 768px) {
+    .projeto-principal .projeto-imagens {
+        height: 240px !important;
+    }
+}
