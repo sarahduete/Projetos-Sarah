@@ -38,7 +38,6 @@ Também organizei os links para meus repositórios e projetos publicados, facili
 - HTML
 - CSS
 
----
 
 ## 📚 Aprendizados
 
@@ -48,4 +47,3 @@ Aprendi a organizar melhor minhas informações, criar uma identidade visual con
 
 O portfólio também é um projeto em constante evolução, pois pretendo atualizá-lo conforme desenvolvo novos trabalhos e adquiro novos conhecimentos.
 
----
