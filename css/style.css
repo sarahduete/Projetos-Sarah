@@ -1460,3 +1460,22 @@ p, span, a {
     }
 }
 
+
+/* IMAGEM DO PROJETO */
+
+.projeto-imagens {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.projeto-imagens .imagem-principal {
+    width: 100%;
+    aspect-ratio: 16 / 11;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    border-radius: 16px;
+    border: 1px solid #F0DCE4;
+    box-shadow: 0 8px 22px rgba(120, 55, 80, 0.08);
+}
